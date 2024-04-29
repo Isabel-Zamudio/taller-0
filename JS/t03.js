@@ -3,7 +3,7 @@
 let str = prompt ("Digite string: ")
 
 function voltear(str) {
-    var lista = [];
+    let lista = [];
 
     for (var i = str.length - 1; i >= 0; i--) {
         lista.push(str[i]);
@@ -12,6 +12,6 @@ function voltear(str) {
     return lista;
 }
 
-var lista = voltear(str);
+let lista = voltear(str);
 
 console.log(lista);
