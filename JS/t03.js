@@ -2,7 +2,7 @@
 
 let str = prompt ("Digite string: ")
 
-function stringToListReverse(str) {
+function voltear(str) {
     var lista = [];
 
     for (var i = str.length - 1; i >= 0; i--) {
@@ -12,6 +12,6 @@ function stringToListReverse(str) {
     return lista;
 }
 
-var lista = stringToListReverse(str);
+var lista = voltear(str);
 
 console.log(lista);
